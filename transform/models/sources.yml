@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: mlb
+    database: MLB
+    schema: main
+    tables:
+      - name: raw_pitch_level
+      - name: raw_player_names

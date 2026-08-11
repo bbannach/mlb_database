@@ -1,0 +1,17 @@
+# Virtual environment & cache
+.venv/
+venv/
+__pycache__/
+
+# Log files & data directories
+logs/
+transform/logs/
+transform/target/
+transform/dbt_packages/
+
+# data files
+data/
+
+# Environment secrets
+.env
+profiles.yml
